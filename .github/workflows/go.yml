@@ -21,4 +21,4 @@ jobs:
          go mod tidy
 
     - name: Build
-      run: go build -v .
+      run: go build -v ./example/main.go ./example/httptask.go
